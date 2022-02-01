@@ -11,3 +11,8 @@ body {
   max-width: 320px;
   margin: auto;
 }
+
+div {
+  background-color: red;
+  margin: 10px;
+}
