@@ -7,7 +7,8 @@ html {
   scroll-behavior: smooth;
   background-color: black;
   margin: 30px;
-  --green: greenyellow;
+  --green: #2afca6;
+  --grey: #444444;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
 body {
   max-width: 320px;
   margin: auto;
+  font-family: 'Monserrat', sans-serif;
 }
 
 footer {
@@ -31,6 +33,7 @@ footer {
 article {
   background-color: white;
   padding: 20px;
+  margin-top: 20px;
 }
 
 img {
@@ -42,8 +45,38 @@ figure {
   box-shadow: gray 0px 0px 20px 1px;
 }
 
+figcaption {
+  padding: 10px;
+}
+
+em {
+  color: var(--green);
+  font-weight: 200;
+}
+
 .chapeau {
   background-color: var(--green);
   padding: 20px;
   margin: 20px 0;
+  color: var(--grey);
+}
+
+.button {
+  color: white;
+  background-color: var(--grey);
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.date {
+  font-weight: 800;
+}
+
+.author {
+  color: var(--green);
+}
+
+.info-article {
+  font-size: 10px;
 }
