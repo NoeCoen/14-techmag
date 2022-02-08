@@ -9,7 +9,7 @@ html {
   margin: 20px;
   --green: #2afca6;
   --grey: #444444;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -17,12 +17,35 @@ header {
   border: solid white 2px;
   padding: 30px;
   background-image: url(../img/title_background.png);
-  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-  font-size: 180%;
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.625em;
+  margin: 20px 0 20px;
+}
+
+.chapeau h2{
+  margin: 10px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  margin: 8px;
+}
+
+header p{
+  margin: 20px 0 20px;
+}
+
+.chapeau p{
+  margin: 20px 10px;
+}
+
+p {
+  margin: 14px 10px 10px 10px;
 }
 
 article header {
@@ -36,16 +59,10 @@ body {
   margin: auto;
 }
 
-footer {
-  color: white;
-  border: solid var(--green) 3px;
-  text-align: center;
-  margin: 20px 0;
-}
 
 article {
   background-color: white;
-  padding: 20px;
+  padding: 20px 20px 23px 20px;
   margin-top: 20px;
 }
 
@@ -54,25 +71,24 @@ img {
 }
 
 figure {
-  margin: 0;
-  box-shadow: gray 0px 0px 20px 1px;
+  margin: 16px 10px 32px 10px ;
+  box-shadow: lightgray 0px 0px 10px 1px;
+  font-size: 0.75em;
 }
 
 figcaption {
-  padding: 10px;
+  padding: 6px 10px 5px 10px ;
 }
 
 .title-number {
   color: var(--green);
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
   font-style: italic;
   font-weight: 100;
 }
 
 .chapeau {
   background-color: var(--green);
-  padding: 20px;
+  padding: 20px 20px 26px 20px;
   margin: 20px 0;
   color: var(--grey);
 }
@@ -80,19 +96,33 @@ figcaption {
 .button {
   color: white;
   background-color: var(--grey);
-  padding: 5px 10px;
+  padding: 5px 15px;
   text-decoration: none;
   font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .date {
-  font-weight: 800;
+  font-weight: bold;
 }
 
+footer {
+  color: white;
+  border: solid var(--green) 3px;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 0.6em;
+}
+
+footer p {
+  margin: 10px;
+}
 .author {
   color: var(--green);
 }
 
 .info-article {
-  font-size: 10px;
+  font-size: 0.75em;
+  margin: 20px 15px 0px 8px;
 }
