@@ -17,6 +17,11 @@ header {
   padding: 20px;
 }
 
+article header {
+  color: var(--grey) ;
+  padding: 0;
+}
+
 body {
   max-width: 320px;
   margin: auto;
