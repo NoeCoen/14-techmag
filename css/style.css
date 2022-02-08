@@ -6,7 +6,7 @@
 html {
   scroll-behavior: smooth;
   background-color: black;
-  margin: 30px;
+  margin: 10px 25px 24px 24px;
   --green: #2afca6;
   --grey: #444444;
 }
@@ -15,11 +15,13 @@ header {
   color: white;
   border: solid white 3px;
   padding: 20px;
+  background-image: url(../img/title_background.png);
 }
 
 article header {
   color: var(--grey) ;
   padding: 0;
+  background-image: none;
 }
 
 body {
@@ -54,8 +56,10 @@ figcaption {
   padding: 10px;
 }
 
-em {
+.title-number {
   color: var(--green);
+  font-weight: 200;
+  font-style: italic;
   font-weight: 200;
 }
 
